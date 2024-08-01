@@ -89,3 +89,19 @@ ul li a{
     font-size: 40px;
     font-weight: 800;
 }
+
+/* card section code */
+.card-section{
+    width: 1240px;
+    margin: 0 auto;
+    /* padding: 60px 120px; */
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+}
+.card-img{
+    width: 345px;
+    height: 210px;
+}
