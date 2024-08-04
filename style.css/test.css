@@ -121,3 +121,28 @@ body{
     line-height: 30px;
     margin: 17px 0;
 }
+
+/* footer section code */
+footer{
+    background-color: black;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-title{
+    color: #fff;
+    font-style: 32px;
+    font-weight: bold; 
+}
+.date{
+    color: tomato;
+}
+.footer-text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
