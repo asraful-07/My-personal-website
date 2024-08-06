@@ -122,6 +122,45 @@ body{
     margin: 17px 0;
 }
 
+/* build section code */
+.head{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+}
+.head-x{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 131%;
+}
+.color{
+    color: rgb(255, 173, 90);
+}
+.build-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.build-avatar img{
+    width: 230px;
+    height: 460px;
+    border-radius: 16px;
+    box-shadow: 2px 4px 32px 0px rgba(0, 0, 0, 0.12);
+}
+.build-content{
+    max-width: 480px;
+}
+.text{
+    color: rgb(62, 62, 62);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin: 16px 0;
+}
+
 /* footer section code */
 footer{
     background-color: black;
