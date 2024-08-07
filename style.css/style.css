@@ -101,12 +101,32 @@ ul li a {
 }
 
 /* card section cord */
-/* .card-container {
+.title-head{
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px;
+}
+.card-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 46px;
 }
-.card-img {
+.card-img img{
   width: 345px;
   height: 210px;
-} */
+} 
+.card-content{
+  padding: 20px;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.card-text{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
